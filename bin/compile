@@ -11,7 +11,7 @@ VERSION="2.0.0"
 # Buildpack URL
 ARCHIVE_NAME=phantomjs-${VERSION}-ubuntu_x86_64
 FILE_NAME=${ARCHIVE_NAME}.zip
-BUILDPACK_PHANTOMJS_PACKAGE=https://github.com/eugene1g/phantomjs/releases/download/${version}-bin/${FILE_NAME}
+BUILDPACK_PHANTOMJS_PACKAGE=https://github.com/eugene1g/phantomjs/releases/download/${VERSION}-bin/${FILE_NAME}
 
 mkdir -p $CACHE_DIR
 if ! [ -e $CACHE_DIR/$FILE_NAME ]; then
